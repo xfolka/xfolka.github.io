@@ -30,7 +30,7 @@ github_username:  xfolka
 
 # Build settings
 #remote_theme: pages-themes/hacker@v0.2.0
-theme: jekyll-theme-hacker
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
