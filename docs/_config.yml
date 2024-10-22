@@ -22,17 +22,16 @@ title: Xfolka shenanigans
 email: anders.folkesson@gu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Various musings of a research engineer at University of Gothenburg
-domain: "xfolka.github.io"
-baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: "https://xfolka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: xfolka.github.io
+baseurl: /docs # the subpath of your site, e.g. /blog
+url: https://xfolka.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  xfolka
 
 # Build settings
-theme: jekyll-theme-hacker
-#plugins:
-#  - jekyll-remote-theme
-pckerlugins:
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
