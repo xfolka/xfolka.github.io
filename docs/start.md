@@ -5,4 +5,4 @@ permalink: /
 ---
 
 Hello!
-Welcome to my first github page!
+WHYYYY?!?!?!?!
