@@ -20,8 +20,8 @@
 
 title: Xfolka shenanigans
 email: anders.folkesson@gu.se
-description: >- # this means to ignore newlines until "baseurl:"
-  Various musings of a research engineer at University of Gothenburg
+description: Various musings of a research engineer at University of Gothenburg
+
 domain: xfolka.github.io
 baseurl: /docs # the subpath of your site, e.g. /blog
 url: https://xfolka.github.io # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,7 +29,8 @@ url: https://xfolka.github.io # the base hostname & protocol for your site, e.g.
 github_username:  xfolka
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+#remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
