@@ -305,6 +305,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  ffi
   github-pages
   http_parser.rb (~> 0.6.0)
   minima (~> 2.5)
@@ -314,5 +315,3 @@ DEPENDENCIES
   tzinfo-data
   wdm (~> 0.1)
 
-BUNDLED WITH
-   2.5.22
