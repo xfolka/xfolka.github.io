@@ -28,6 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Use Ruby and Bundler version from Gemfile.lock
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
