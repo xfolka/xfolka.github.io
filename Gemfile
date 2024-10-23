@@ -33,7 +33,8 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "rack"
+gem "rack", "~> 3.1.8"
 gem "puma"
 gem 'ffi', '~> 1.16.3'
 gem "activesupport", "~> 7.0.8"
+gem "uri", "~> 0.13.1"
