@@ -36,3 +36,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "rack"
 gem "puma"
 gem 'ffi', '~> 1.16.3'
+gem "activesupport", "~> 7.0.8"
