@@ -41,16 +41,7 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-aarch64-linux-musl)
-    ffi (1.17.0-arm-linux-gnu)
-    ffi (1.17.0-arm-linux-musl)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
-    ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
-    ffi (1.17.0-x86_64-linux-musl)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -305,7 +296,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  ffi
+  ffi (~> 1.16.3)
   github-pages
   http_parser.rb (~> 0.6.0)
   minima (~> 2.5)
@@ -315,3 +306,5 @@ DEPENDENCIES
   tzinfo-data
   wdm (~> 0.1)
 
+BUNDLED WITH
+   2.5.22
