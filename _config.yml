@@ -23,8 +23,8 @@ email: anders.folkesson@gu.se
 description: Welcome to BNMI 2024, Gothenburg
 
 domain: xfolka.github.io
-baseurl:  ""
-url: https://xfolka.github.io # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl:  ""
+#url: https://xfolka.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  xfolka
 #permalink: /:title/
@@ -87,7 +87,7 @@ sharing_links:
 
 navigation_header:
 - title: Home
-  url: /
+  url: /home/
 - title: Schedule
   url: /schedule/
 - title: Map
