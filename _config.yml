@@ -18,22 +18,97 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Xfolka shenanigans
+title: BNMI 
 email: anders.folkesson@gu.se
-description: Various musings of a research engineer at University of Gothenburg
+description: Welcome to BNMI 2024, Gothenburg
 
 domain: xfolka.github.io
-#baseurl:  # the subpath of your site, e.g. /blog
+baseurl:  ""
 url: https://xfolka.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  xfolka
+#permalink: /:title/
+
+cover: "/assets/header_image.jpg"
+logo: /assets/bnmi.png
+
+collections:
+  abstracts:
+    output: true
 
 # Build settings
-#remote_theme: pages-themes/hacker@v0.2.0
-theme: jekyll-theme-hacker
+remote_theme: daviddarnes/alembic@main
+#theme: centrarium
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Pagination Settings
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  sort_reverse: true
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/daviddarnes
+  GitHub: https://github.com/daviddarnes
+  link: https://darn.es
+  RSS: /feed.xml  
+
+sharing_links:
+  Twitter: "#1DA1F2"
+  facebook: "#3B5998"
+#  Pinterest: "#BD081C"
+  LinkedIn: "#0077B5"
+#  tumblr: "#36465D"
+#  Reddit: "#FF4500"
+#  HackerNews: "#ff6600"
+#  DesignerNews: "#2D72D9"
+#  Email: true
+
+navigation_header:
+- title: Home
+  url: /
+- title: Schedule
+  url: /schedule/
+- title: Map
+  url: /map/
+- title: Talks & Sessions
+  url: /talks/
+- title: Search
+  url: /search/
+
+navigation_footer:
+- title: CCI
+  url: https://www.gu.se/core-facilities/infrastruktur/centre-for-cellular-imaging-cci
+- title: Contact
+  url: /Contact/
+
+
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

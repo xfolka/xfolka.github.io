@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: /about/
+published: false
 ---
 
 This is about
